@@ -18,7 +18,7 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
-  });
+  }); 
 
   it(`should have as title 'credit-card-validation'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
