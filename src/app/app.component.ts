@@ -30,14 +30,14 @@ export class AppComponent {
       DataValidade: ['',Validators.required],
       CodigoSeguranca: ['',Validators.required],
       CardType: ['C']
-    })
+    });
 
     this.secondFormGroup = this.fb.group({
       Logradouro: ['', Validators.required],
       Bairro: ['', Validators.required],
       Municipio:['', Validators.required],
       Estado:['', Validators.required]
-    })
+    });
   }
 
   setCreditCardName() {
